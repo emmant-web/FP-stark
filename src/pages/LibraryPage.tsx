@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 function LibraryPage() {
   return (
-    <div className="dvh-screen">
+    <div className="dvh-screen w-screen ">
       <Navbar />
       <Body />
       <Footer />
