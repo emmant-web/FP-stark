@@ -5,8 +5,7 @@ import StarkLogo from "../assets/images/getstark-icon.jpg";
 function Navbar() {
   return (
     <nav className=" flex justify-between px-30 py-3  bg-cream">
-      <div>
-
+      <div className="flex justify-center items-center gap-2">
         {/* DIV OF THE LOGO */}
         <div>
           <a href="#">
@@ -20,7 +19,20 @@ function Navbar() {
 
         {/* DIV OF THE LINKS */}
         <div>
-            
+          <ul className="flex gap-2">
+            <li>
+              <a href="#">use cases</a>
+            </li>
+            <li>
+              <a href="#">pricing</a>
+            </li>
+            <li>
+              <a href="#">support</a>
+            </li>
+            <li>
+              <a href="#">resources</a>
+            </li>
+          </ul>
         </div>
       </div>
 
